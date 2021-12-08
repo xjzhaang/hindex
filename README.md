@@ -24,5 +24,6 @@ With gensim=3.8.3 and deepwalk=1.0.3, you can run a commandline to generate deep
 
 >deepwalk --format edgelist --input coauthorship.edgelist --number-walks  20 --representation-size 64 --walk-length 20 --window-size 10 --output DeepWalkEmbeddings/coauthor.embeddings
 
-Now with all the data ready, you can load the notebook createData.ipynb to create the X_train, X_test and Y_train csv files.
-Then you can use the notebook learning.ipynb to train the models.
+Now with all the data ready, you can load the notebook createData.ipynb to create the X_train, X_test and Y_train csv files. Inside the file you will also find our current best model.
+
+You can also use the notebook learning.ipynb to train the different models.
