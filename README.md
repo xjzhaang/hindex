@@ -1,6 +1,8 @@
 # Taco2Vec team submission for kaggle project
 
-![alt text](https://cdn.paperpile.com/guides/img/h-index-700x350.png)
+<p align="center">
+  <img src="https://cdn.paperpile.com/guides/img/h-index-700x350.png" />
+</p>
 
 # To run the files
 First things first, have "abstract.txt", "abstract_paper.txt" and "coauthorship.edgelist" in the directory, then run:
