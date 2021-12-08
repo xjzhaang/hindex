@@ -16,8 +16,8 @@ def create_Embedding(input_file,n_dim,window_size,min_count,epochs,model_name,al
 
 
 if __name__ == '__main__':
-    model_name = "d2v_model_PV-DBOW
-    alg_type = 0
+    model_name = "d2v_model_PV-DBOW"
+    algtype = 0
     n_dim = 50
     window_size=5
     input_file = "sentences_line.txt"
@@ -27,7 +27,7 @@ if __name__ == '__main__':
     create_Embedding(input_file,n_dim,window_size,min_count,epochs,model_name,algtype)
     print("Model saved")
     model_name = "d2v_model_PV-DM"
-    alg_type = 1
+    algtype = 1
     n_dim = 50
     window_size=5
     input_file = "sentences_line.txt"
