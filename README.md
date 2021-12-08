@@ -14,12 +14,16 @@ First things first, have "abstract.txt", "abstract_paper.txt" and "coauthorship.
 To obtain a txt file "sentences_line.txt" which is "abstract_paper.txt" converted to paragraphs and a "filtered_sentences.txt" which are paragraphs without stopwords.
 
 Then, run
+>python createWeightedGraph.py
+
+
 >python createD2Vmodel.py
->
+
+To create D2V model, you need to install fastnode2vec, and if you have the latest gensim version, you need to edit the node2vec.py file in your python site-packages/fastnode2vec and change size to vector_size for it to work. 
+
 >python createSimMatrix.py
 >
->python createWeightedGraph.py
->
+
 >python createNode2Vec.py
 
 to create the graphs and embeddings.
