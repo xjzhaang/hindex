@@ -4,7 +4,7 @@
   <img src="https://cdn.paperpile.com/guides/img/h-index-700x350.png" />
 </p>
 
-Top 15% in in-class competition at École Polytechnique. Grade: 18/20, A.
+ ## Top 15% in in-class competition at École Polytechnique. Grade: 18/20, A.
 
 # To run the files
 First things first, have "abstract.txt", "abstract_paper.txt" and "coauthorship.edgelist" in the directory, then run:
